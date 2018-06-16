@@ -1,0 +1,27 @@
+<!--pages/upgrade-membership/upgrade-membership.wxml-->
+<view class='upgrade-membership'>
+  <image src="../../images/generalmembershipupgrade.png" />
+  <text>普通会员</text>
+</view>
+<view class='membership'>
+  <view class='gold-membership'>
+    <view class='bership immediately'>
+      <view class='goldmember mediately'>
+        <text class='goldmembers'>升级为黄金会员</text>
+        <text class='monthly'>35/月</text>
+      </view>
+      <text class='immediately-opened' bindtap='recharge'>升级</text>
+    </view>
+    <view class='bership opened '>
+
+      <view class='goldmember mediately'>
+        <text class='goldmembers'>升级为VIP会员</text>
+        <text class='monthly'>45/月</text>
+      </view>
+      <text class='immediately-opened' bindtap='recharge'>升级</text>
+    </view>
+  </view>
+</view>
+<view class='prompt'>
+  <text class='promptes'>会员特权</text>
+</view>

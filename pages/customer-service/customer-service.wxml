@@ -1,0 +1,17 @@
+<!--pages/new-recharge/new-recharge.wxml-->
+<view class='customer-service service'>
+  <view class='customer'>
+    <image class='customerservice' src="../../images/customerservice.png" />
+    <text class='custome'>QQ客服</text>
+    <text class='number'>2535664897</text>
+  </view>
+  <image class='arrows' src="../../images/arrows.png" />
+</view>
+<view class='customer-service'>
+  <view class='customer'>
+    <image class='officialexchangegroup' src="../../images/officialexchangegroup.png" />
+    <text class='custome'>官方交流群</text>
+    <text class='number'>331223059</text>
+  </view>
+  <image class='arrows' src="../../images/arrows.png" />
+</view>

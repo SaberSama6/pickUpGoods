@@ -1,0 +1,23 @@
+<!--pages/setting/setting.wxml-->
+<view class='setting'>
+  <view class='PasswordManagement' bindtap='passwordmanager'>
+    <text>密码管理</text>
+  </view>
+  <view class='retreat-from'>
+    <view class='Management'>
+      <text>意见反馈</text>
+    </view>
+    <view class='Management'>
+      <text>关于我们</text>
+    </view>
+    <view class='Management'>
+      <text>清除缓存</text>
+    </view>
+    <view class='Management'>
+      <text>版本号</text>
+    </view>
+    <view class='Management retreat'>
+      <text>退出</text>
+    </view>
+  </view>
+</view>

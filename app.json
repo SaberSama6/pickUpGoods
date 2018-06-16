@@ -1,0 +1,38 @@
+{
+  "pages": [     
+    "pages/new-projects/new-projects",
+    "pages/new-recharge/new-recharge",
+    "pages/register/verification",
+    "pages/make-indexte/make-indexte",
+    "pages/mine-indexte/mine-indexte",
+    "pages/PasswordManager/PasswordManager",
+    "pages/gesture-password/gesture-password",
+    "pages/withdraw-deposit/withdraw-deposit",
+    "pages/customer-service/customer-service",
+    "pages/ceshi/ceshi",
+    "pages/usinghelp/usinghelp",
+    "pages/matriculation/matriculation",
+    "pages/upgrade-membership/upgrade-membership",
+    "pages/alipay-certification/alipay-certification",
+    "pages/task-review/task-review",
+    "pages/immediate-membership/immediate-membership",
+    "pages/super-members/super-members",
+    "pages/goldme-mbership/goldme-mbership",
+    "pages/indexte-recharge/indexte-recharge",
+    "pages/auth-code/auth-code",
+    "pages/certification/certification",
+    "pages/authentication/authentication",
+    "pages/password-login/password-login",
+    "pages/forget-password/forget-password",
+    "pages/phone-authentication/phone-authentication",
+    "pages/setting/setting",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2684c4",
+    "navigationBarTitleText": "捡财网",
+    "navigationBarTextStyle": "white"
+  }
+}

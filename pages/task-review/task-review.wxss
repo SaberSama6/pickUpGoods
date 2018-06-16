@@ -1,0 +1,33 @@
+/* pages/task-review/task-review.wxss */
+
+.task-review {
+  /* background-color: rgba(255, 132, 193, 0.493); */
+  border-bottom: 6rpx solid rgb(235, 235, 235);
+  padding: 40rpx 40rpx 40rpx 40rpx;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-review>text {
+  color: rgb(152, 152, 152);
+  font-size: 38rpx;
+  display: block;
+  /* background-color: firebrick; */
+}
+
+.task-complete>.complete {
+  color: rgb(62, 138, 190);
+  height: 84rpx;
+  display: block;
+}
+
+.rectangle {
+  background-color: rgb(59, 144, 202);
+  margin-left: 16rpx;
+  text-align: center; 
+  display: block;
+  width: 45rpx;
+  height: 10rpx;
+  border-radius: 20rpx;
+}

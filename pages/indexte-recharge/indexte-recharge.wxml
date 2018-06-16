@@ -1,0 +1,20 @@
+<!--pages/indexte-recharge/indexte-recharge.wxml-->
+<view class='indexte-recharge'>
+  <view class='recharge'>
+    <view class='MakeDepositAccount'>
+      <text class='account'>充值账户</text>
+      <view class='deposit'>
+        <view class='wechat'>微信</view>
+        <text class='user-name' bindtap="carousel">{{UserName}}</text>
+      </view>
+    </view>
+    <view class='recharges'>
+      <text class='amount'>充值金额</text>
+      <view class='china-yuan'>
+        <image src="/images/ChinaYuan.png" />
+        <text class='amount-money'>{{AmountMoney}}</text>
+      </view>
+    </view>
+    <text class='next-step'>下一步</text>
+  </view>
+</view>

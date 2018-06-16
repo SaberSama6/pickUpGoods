@@ -1,0 +1,234 @@
+/* pages/mine-indexte/mine-indexte.wxss */
+/*整个页面   */
+.page-frame {
+  width: 100%;
+  height: 1666rpx;
+  display: flex;
+  flex-direction: column;
+  background-color:  rgb(235, 235, 235);
+}
+/*头部   */
+.member {
+  width: 92%;
+  height: 250rpx;
+  padding: 0rpx 40rpx 0rpx 30rpx;
+  background-color:  rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+/* 昵称，头像和ID 大小*/
+.memberes {
+  width: 50%;
+  height: 100%;
+}
+/*昵称，头像和ID位置*/
+.membeing {
+  width: 60%;
+  height: 75%;
+  padding: 65rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+/*头像  */
+.head-portraits {
+  display: block;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 150rpx;
+}
+/*昵称和ID样式  */
+.consumer {
+  height: 40rpx;
+  margin-left: 20rpx;
+  padding-top: 20rpx;
+  font-size: 30rpx;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+/* 昵称  */
+.user-name {
+  display: block;
+  width: 240rpx;
+  color: rgb(40, 40, 40);
+}
+/* ID */
+.id-number {
+  padding-top: 15rpx;
+  height: 33rpx;
+  color: rgb(101, 101, 101);
+}
+/* 右边样式 */
+.membere {
+  font-size: 24rpx;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+/*会员开通样式*/
+.immediately {
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-top: 80rpx;
+  margin-left: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  width: 190rpx;
+  height: 50rpx;
+  border-radius: 180rpx;
+  background: linear-gradient(rgb(239, 220, 197), rgb(218, 175, 120));
+}
+/* 图片和文字样式 */
+.welfare {
+  margin-left: 25rpx;
+  justify-content: space-between;
+  display: flex;
+  width: 84%;
+}
+/* 图片 */
+.welfare>image {
+  margin-top: 24rpx;
+  width: 30rpx;
+  height: 25rpx;
+}
+/* 文字 */
+.member-benefits {
+  font-size: 24rpx;
+  color: rgb(101, 101, 101);
+  margin-top: 20rpx;
+}
+.amount {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 250rpx;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+/*充值与提现 */
+.balance {
+  display: block;
+  width: 50%;
+  border-right: 1rpx solid rgb(236, 236, 236);
+}
+
+.balances {
+  line-height: 40rpx;
+  height: 70rpx;
+  display: block;
+  font-size: 36rpx;
+  color: rgb(62, 138, 190);
+}
+
+.earnings{
+  display: block;
+  padding-top: 55rpx; 
+  height: 75rpx;
+  /* line-height: 30rpx; */
+}
+.remaining {
+  display: block;
+  height: 65rpx;
+  color: rgb(101, 101, 101);
+}
+
+.amounte {
+  font-size: 30rpx;
+  text-align: center;
+  height: 76%;
+  margin: 30rpx 0rpx 0rpx 0rpx;
+}
+
+.button-balance {
+  margin: 0 auto;
+  width: 60%;
+  height: 58rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-balance>text {
+  text-align: center;
+  width: 80rpx;
+  line-height: 45rpx;
+  height: 50rpx;
+  display: block;
+  border-radius: 50rpx;
+}
+
+.recharge {
+  background-color: rgb(62, 138, 190);
+  border: 1rpx solid rgb(62, 138, 190);
+  color: rgb(255, 255, 255);
+}
+
+.WithdrawDeposit {
+  display: block;
+   border: 1rpx solid rgb(62, 138, 190);
+  color: rgb(62, 138, 190);
+}
+
+.earning {
+  display: block;
+  width: 50%;
+}
+/*功能  */
+.friends{
+  display: flex;
+  flex-direction: column;
+  color: rgb( 101, 101, 101);
+  font-size: 32rpx;
+  margin-top: 30rpx;
+  padding: 0rpx  20rpx 0rpx 20rpx;
+  width: 94%;
+  height: 840rpx;
+  background-color: rgb(255, 255, 255);
+}
+.invitation{
+  padding-top: 35rpx;
+  height: 120rpx;
+  display: block;
+  border-bottom: 1rpx solid rgb(235 ,235 , 235);
+}
+.invitat{
+  border: none;
+}
+
+.form{
+  width: 100%;
+  height: 140rpx;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+}
+
+.delete{
+  margin: 0 auto;
+  padding-top: 20rpx;
+  width: 78%;
+  height: 70rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete>image{
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.typeface{
+  margin: 0 auto;
+  width: 80%;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.typeface>text{
+  color: rgb(137, 137, 137);
+  font-size: 34rpx;
+}
+.typeface>.preemptive{   
+  color: rgb(38, 132, 196);
+  margin-left: 4rpx;
+}

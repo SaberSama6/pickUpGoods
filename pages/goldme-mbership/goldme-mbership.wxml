@@ -1,0 +1,34 @@
+<!--pages/goldme-mbership/goldme-mbership.wxml-->
+<view class='upgrade-membership'>
+  <image src="../../images/facebookgoldaccount.png" />
+  <text>黄金会员</text>
+  <view class='immediately-renewal'>
+    <view class='remain-memberday'>
+      <text class='memberday'>剩余<text bindtap="carousel">{{MemBerday}}</text>天</text>
+      <text class='renewal'>立即续费</text>
+    </view>
+    <text></text>
+  </view>
+</view>
+<view class='membership'>
+  <view class='gold-membership'>
+    <view class='bership immediately'>
+      <view class='goldmember mediately'>
+        <text class='goldmembers'>继续保持黄金会员</text>
+        <text class='monthly'>35/月</text>
+      </view>
+      <text class='immediately-opened' bindtap='recharge'>续费</text>
+    </view>
+    <view class='bership opened '>
+
+      <view class='goldmember mediately'>
+        <text class='goldmembers'>升级为VIP会员</text>
+        <text class='monthly'>45/月</text>
+      </view>
+      <text class='immediately-opened' bindtap='recharge'>升级</text>
+    </view>
+  </view>
+</view>
+<view class='prompt'>
+  <text class='promptes'>会员特权</text>
+</view>

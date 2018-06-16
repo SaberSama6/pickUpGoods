@@ -1,0 +1,127 @@
+/* pages/upgrade-membership/upgrade-membership.wxss */
+.upgrade-membership{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 450rpx;
+}
+.upgrade-membership>image{
+  display: block;
+  width: 690rpx;
+  left: 32rpx;
+  top: 40rpx;
+  height: 340rpx;
+  position: absolute;
+}
+.upgrade-membership>text{
+   position: absolute;
+   z-index: 2;
+  display: block;
+  height: 40rpx;
+  line-height: 40rpx;
+  left: 290rpx;
+  top: 190rpx;
+  color: white;
+  font-size: 40rpx;
+}
+
+.membership {
+  width: 100%;
+  height: 380rpx;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 6.8rpx solid rgb(235, 235, 235);
+}
+
+.gold-membership {
+  display: block;
+  padding: 55rpx 38rpx 0 38rpx;
+  width: 90%;
+  height: 320rpx;
+}
+
+.bership {
+  width: 100%;
+  height: 140rpx;
+}
+
+.goldmembers {
+  font-size: 34rpx;
+  line-height: 30rpx;
+  height: 60rpx;
+  width: 360rpx;
+  display: block;
+  color: rgb(101, 101, 101);
+
+}
+.monthly {
+  width: 120rpx;
+  line-height: 32rpx;
+ margin-left: 50rpx;
+  height: 40rpx;
+  color: rgb(225, 190, 144);
+  font-weight: 600;
+}
+.immediately-opened {
+  font-size: 32rpx;
+  display: block;
+  margin: 30rpx 0 0 210rpx;
+  line-height: 60rpx;
+  width: 130rpx;
+  height: 60rpx;
+  background-color: rgb(224, 189, 143);
+  border-radius: 60rpx;
+  color: white;
+  text-align: center;
+}
+.goldmember {
+  display: flex;
+  flex-direction: column;
+}
+
+.immediately {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid rgb(235, 235, 235);
+}
+.opened{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+/* .privilege{
+
+} */
+.prompt {
+  height: 90rpx;
+  width: 100%;
+  margin-top: 70rpx; 
+}
+.promptes {
+  color: rgb(101, 101, 101);
+  font-size: 34rpx;
+  height: 50rpx;
+  margin-bottom: 36rpx;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  line-height: 1.1;
+  position: relative;
+}
+
+view.prompt>text:before, view.prompt>text:after {
+  content: ''; /*CSS伪类用法*/
+  position: absolute; /*定位背景横线的位置*/
+  top: 16rpx;
+  background: rgb(101, 101, 101); /*宽和高做出来的背景横线*/
+  width: 80rpx;
+  height: 4rpx;
+}
+
+view.prompt>text:before {
+  left: 212rpx; /*调整背景横线的左右距离*/
+}
+
+view.prompt>text:after {
+  right: 212rpx;
+}

@@ -1,0 +1,53 @@
+<!--pages/indexte/indexte.wxml-->
+<view class='grandes'>
+  <view class='grand-total'>
+    <text>累计任务数量300个,注册用户累计10000个</text>
+  </view>
+  <view class='task-images'>
+    <image src="/images/makemoney.png" />
+  </view>
+  <view class='bition'>
+    <view class='adhibition'>
+      <view class='format'>
+        <image src="/images/invite.png" />
+        <text class='mission'>邀请好友</text>
+        <text class='multitasking'>邀请更多好友做任务一起赚钱</text>
+      </view>
+      <view class='format'>
+        <image src="/images/early.png" />
+        <text class='mission'>早起打卡</text>
+        <text class='multitasking'>邀请更多好友做任务一起赚钱</text>
+      </view>
+      <view class='format' bindtap="project">
+        <image src="/images/publish.png" />
+        <text class='mission'>发布任务</text>
+        <text class='multitasking'>邀请更多好友做任务一起赚钱</text>
+      </view>
+      <view class='format'>
+        <image src="/images/pushthesingle.png" />
+        <text class='mission'>推单列表</text>
+        <text class='multitasking'>邀请更多好友做任务一起赚钱</text>
+      </view>
+      <view class='format'>
+        <image src="/images/earnmone.png" />
+        <text class='mission'>任务审核</text>
+        <text class='multitasking'>邀请更多好友做任务一起赚钱</text>
+      </view>
+    </view>
+  </view>
+  <view class="form">
+    <view class='delete'>
+      <image class='bag' src="/images/bag.png" />
+      <image class='task' src="/images/task.png" />
+      <image class='message' src="/images/message.png" />
+      <image class='people' bindtap="mineindexte" src="/images/people.png" />
+    </view>
+    <view class='typeface'>
+      <text class='preemptive'>首页</text>
+      <text>任务</text>
+      <text>消息</text>
+      <!--project  -->
+      <text bindtap="mineindexte">我的</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,45 @@
+/* pages/matriculation/matriculation.wxss */
+
+.forget-page {
+  font-size: 36rpx;
+  color: rgb(101, 101, 101);
+}
+
+.phone-number {
+  width: 640rpx;
+  height: 80rpx;
+  line-height: 120rpx;
+  border-bottom: 2rpx solid rgb(235, 235, 235);
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+}
+
+.forget-page input {
+  width: 400rpx;
+  height: 40rpx;
+  color: rgb(101, 101, 101);
+}
+
+.phone-number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-number>text {
+  color: rgb(55, 140, 198);
+  line-height: 50rpx;
+}
+
+.register {
+  text-align: center;
+  display: block;
+  background-color: rgb(55, 140, 198);
+  color: rgb(255, 255, 255);
+  margin: 100rpx 0rpx 0rpx 70rpx;
+  letter-spacing: 20rpx;
+  border-radius: 50rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  width: 600rpx;
+  height: 90rpx;
+}

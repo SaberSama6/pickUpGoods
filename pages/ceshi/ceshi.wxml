@@ -1,0 +1,25 @@
+<view>
+  <form bindsubmit="sumit">
+
+    <input bindinput="phone" maxlength="11" type="number" class="marginview" name="phone" placeholder="手机号" />
+
+    <input bindinput="password" maxlength="8" password class="marginview" name="passworld" placeholder="密码" />
+
+    <button class="marginview" form-type="submit">登录
+
+      <span style="color:#ff0000;" style="opacity:{{opacity}};color: white; background-color: #ff8719;" disabled="{{disabled}}" loading="{{loginLoading}}"/>
+
+    </button>
+    
+  </form>
+
+  <button bindtap="gotoRegist" class="marginview">注册
+
+    <span style="background-color:rgb(255,0,0);" plain style="color: #ff8719; border-color: #ff8719;" />
+
+  </button>
+
+  <navigator open-type="redirect" hover-class="none" class="marginview textview" url="forgetpw/forgetpw">忘记密码
+  </navigator>
+  
+</view>

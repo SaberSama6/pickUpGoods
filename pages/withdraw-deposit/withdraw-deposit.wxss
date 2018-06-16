@@ -1,0 +1,187 @@
+/* pages/withdraw-deposit/withdraw-deposit.wxss */
+.withdraw-deposi {
+  width: 100%;
+  height: 1500rpx;
+  background-color: rgb(235, 235, 235);
+}
+
+.withdraw {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  height: 1050rpx;
+  padding: 32rpx 0rpx 0rpx 32rpx;
+}
+
+.deposi {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+.cash-account {
+  display: flex;
+  height: 100rpx;
+  width: 75%;
+  background-color: rgb(250, 250, 250);
+  padding: 60rpx 124rpx 60rpx 50rpx;
+}
+
+.account {
+  display: block;
+  color: rgb(40, 40, 40);
+  font-size: 32rpx;
+  width: 258rpx;
+  height: 40rpx;
+  line-height: 36rpx;
+}
+
+.wechat {
+  display: flex;
+  flex-direction: column;
+  width: 320rpx;
+  height: 100rpx;
+}
+
+.divoer {
+  color: rgb(38, 132, 196);
+  font-size: 34rpx;
+  line-height: 36rpx;
+  display: block;
+  width: 70rpx;
+}
+
+.wechat-id {
+  color: rgb(101, 101, 101);
+  font-size: 30rpx;
+  display: block;
+  line-height: 30rpx;
+  height: 26rpx;
+  padding-top: 40rpx;
+}
+
+.mention {
+  display: block;
+  width: 84%;
+  height: 220rpx;
+  padding-top: 40rpx;
+  margin: 0 auto;
+  border-bottom: 1rpx solid rgb(250, 250, 250);
+}
+
+.freezing {
+  margin: 0 auto;
+  padding: 0rpx 0rpx 0 0rpx;
+  width: 90%;
+  height: 220rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.amount {
+  width: 160rpx;
+  height: 100%;
+}
+
+.thebalancefigure {
+  width: 60rpx;
+  height: 60rpx;
+  display: block;
+  margin-left: 50rpx;
+}
+
+.withdrawal-balance {
+  font-size: 30rpx;
+  color: rgb(101, 101, 101);
+  line-height: 26rpx;
+  padding-top: 25rpx;
+  width: 100%;
+  height: 34rpx;
+  display: block;
+  text-align: center;
+}
+
+.balance {
+  line-height: 34rpx;
+  font-size: 38rpx;
+  height: 34rpx;
+  display: block;
+  text-align: center;
+  padding-top: 20rpx;
+  color: rgb(40, 40, 40);
+}
+
+.outstanding {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20rpx;
+}
+
+.balances {
+  display: block;
+  height: 36rpx;
+  line-height: 38rpx;
+  color: rgb(40, 40, 40);
+}
+
+.freezes {
+  display: flex;
+  flex-direction: column;
+  width: 120rpx;
+  font-size: 24rpx;
+  color: rgb(104, 104, 104);
+  padding-top: 5rpx;
+}
+
+.withdrawal-amount {
+  width: 84%;
+  padding: 60rpx 0 0 0;
+  height: 220rpx;
+  margin: 0 auto;
+  border-bottom: 1rpx solid rgb(236, 236, 236);
+}
+
+.withdrawal {
+  display: block;
+  width: 130rpx;
+  font-size: 32rpx;
+}
+
+.withdrawales {
+  width: 100%;
+  height: 66rpx;
+  padding-top: 50rpx;
+  display: flex;
+}
+.withdrawales>text{
+  display: block;
+}
+.withdwales {
+  font-size: 56rpx;
+  width: 95rpx;
+}
+.withdwal{
+  font-size: 60rpx;
+  font-weight: 600;
+}
+
+.additional-deduction{
+  font-size: 22rpx;
+  display: block;
+  width: 64%;
+  height: 100rpx;
+  padding: 20rpx 0 0 54rpx;
+  color: rgb(152, 152, 152);
+}
+.next-step{
+  font-size: 36rpx;
+  margin: 0 auto;
+  width: 85%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 176, 53);
+  display: block;
+  text-align: center;
+  border-radius: 10rpx;
+}/*background-color: firebrick;  */

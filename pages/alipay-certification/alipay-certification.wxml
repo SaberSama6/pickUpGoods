@@ -1,0 +1,22 @@
+<!--pages/alipay-certification/alipay-certification.wxml-->
+<view class='bindinput'>
+  <view class='real-name real'>
+    <view class='full-name guest-names'>
+      <text class='true-name'>真实姓名</text>
+      <input type="text" placeholder='' bindinput="bindKeyInputs" id="timer" bindtap="carousel">{{CountDownSecond}}</input>
+    </view>
+   </view>
+   
+  <view class='real-name alipay'>
+    <view class='full-name'>
+      <text class='true-name'>支付宝账号</text>
+      <input type="text" placeholder='' bindinput="bindKeyInputs" maxlength="11" id="timer" bindtap="carousel">{{CountDownSecond}}</input>
+    </view>
+  </view>
+</view>
+<view class='prompt'>
+  <text class='promptes'>温馨提示</text>
+</view>
+<view class='question'>
+  <text>真实姓名和身份证是提现的凭证，提交后不得更改，如有疑问您可以<text class='notescontact'>联系客服</text>。</text>
+</view>

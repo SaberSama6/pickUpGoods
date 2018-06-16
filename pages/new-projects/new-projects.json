@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#2684c4",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发布任务"
+}

@@ -1,0 +1,110 @@
+/* pages/indexte-recharge/indexte-recharge.wxss */
+
+.indexte-recharge {
+  padding: 40rpx 32rpx 0 32rpx;
+  width: 92%;
+  height: 1206rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+}
+
+.recharge {
+  width: 100%;
+  height: 750rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20rpx;
+}
+
+.MakeDepositAccount {
+  background-color: rgb(250, 250, 250);
+  justify-content: space-between;
+  border-radius: 20rpx 20rpx 0 0;
+  padding: 60rpx 82rpx 0 70rpx;
+  height: 160rpx;
+  display: flex;
+  width: 78%;
+}
+
+.account {
+  color: rgb(40, 40, 40);
+  font-size: 36rpx;
+  display: block;
+  width: 48%;
+}
+
+.deposit {
+  flex-direction: column;
+  width: 52%;
+  display: flex;
+}
+
+.wechat {
+  color: rgb(59, 144, 202);
+  line-height: 32rpx;
+  font-size: 34rpx;
+  height: 60rpx;
+  display: block;
+}
+
+.user-name {
+  color: rgb(101, 101, 101);
+  line-height: 34rpx;
+  font-size: 32rpx;
+  display: block;
+  height: 44rpx;
+}
+
+.recharges {
+  border-bottom: 1rpx solid rgb(235, 235, 235);
+  padding: 50rpx 0rpx 0 0rpx;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 290rpx;
+  display: flex;
+  width: 85%;
+}
+
+.amount {
+  color: rgb(40, 40, 40);
+  font-size: 38zrpx;
+  height: 120rpx;
+  display: block;
+}
+
+.china-yuan {
+  width: 80%;
+  display: flex;
+  height: 120rpx;
+  justify-content: space-between;
+}
+
+.china-yuan>image {
+  width: 50rpx;
+  height: 80rpx;
+}
+
+.amount-money {
+  line-height: 64rpx;
+  font-weight: 900;
+  font-size: 88rpx;
+  display: block;
+  width: 330rpx;
+  height: 70rpx;
+}
+
+.next-step{
+  background-color: rgb(235, 235, 235);
+  margin: 50rpx auto auto auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  letter-spacing: 20rpx;
+  border-radius: 20rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  width: 600rpx;
+  height: 90rpx; 
+}

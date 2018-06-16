@@ -1,0 +1,79 @@
+/*pages/register/verification.wxss*/
+.farses{
+  font-size: 34rpx;
+  height: 1450rpx;
+  width: 100%;
+  display: flex;
+  color: rgba(255, 255, 255, 255);
+}
+
+.jcwoerd>image{
+  align-items: center; 
+  margin: 0 auto;
+  width: 100%;
+  height: 1450rpx;
+  position: absolute;
+}
+
+.search{
+  width: 630rpx;
+  height: 350rpx;
+  margin: 1000rpx 0 0 65rpx;
+  /* background-color: rgba(0, 128, 128, 0.502); */
+  z-index: 1;
+  position: absolute;
+}
+
+.center{
+  width: 630rpx;
+  height:  130rpx;  
+  /* background-color: rgba(52, 53, 122, 0.502); */
+  z-index: 1;
+  position: relative;
+}
+
+.center>image{
+  width: 630rpx;
+  height: 85rpx;
+  z-index: 2;
+  position: absolute;
+}
+
+.center>text{
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  font-weight: 500;
+  top: 18rpx;
+  left: 9rpx;
+  width: 240rpx;
+  height: 40rpx;
+}
+
+.helix-server{
+  display: flex;
+  justify-content: space-between;
+  width: 630rpx;
+  height: 150rpx;
+  font-size: 32rpx;
+  /* background-color: rgb(38, 255, 0); */
+}
+
+.helix-server>.mobile-phone{
+  padding: 20rpx 10rpx 20rpx 10rpx;
+  width: 260rpx;
+  height: 50rpx;
+  font-weight: 500;
+  text-align: center;
+  border: 1.0rpx solid rgba(255, 255, 255, 255);
+  display: block;
+  /* background-color: rgb(0, 38, 255); */
+}
+.search>.new-customer{
+  color: #ffffff;
+  display: flex;
+  font-size: 30rpx;
+  float: right;
+}

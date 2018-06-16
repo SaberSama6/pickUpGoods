@@ -1,0 +1,10 @@
+<!--pages/task-review/task-review.wxml-->
+<view class='task-review'>
+  <view class='task-complete'>
+    <text class='complete'>全部</text>
+    <text class='rectangle'></text>
+  </view>
+  <text>待审核</text>
+  <text>不合格</text>
+  <text>已完成</text>
+</view>

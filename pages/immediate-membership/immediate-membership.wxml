@@ -1,0 +1,23 @@
+<!--pages/immediate-membership/immediate-membership.wxml-->
+<view class='membership'>
+  <view class='gold-membership'>
+    <view class='bership immediately'>
+      <view class='goldmember mediately'>
+        <text class='goldmembers'>开通为黄金会员</text>
+        <text class='monthly'>35/月</text>
+      </view>
+      <text class='immediately-opened' bindtap='recharge'>开通</text>
+    </view>
+    <view class='bership opened '>
+    
+    <view class='goldmember mediately'>
+        <text class='goldmembers'>开通为VIP会员</text>
+        <text class='monthly'>45/月</text>
+      </view>
+      <text class='immediately-opened' bindtap='recharge'>开通</text>
+    </view>
+  </view>
+</view>
+<view class='prompt'>
+  <text class='promptes'>会员特权</text>
+</view>  

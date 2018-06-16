@@ -1,0 +1,262 @@
+/* pages/new-projects/new-projects.wxss */
+
+.project-snew {
+  display: block;
+  background-color: rgb(236, 236, 236);
+  height: 2350rpx;
+  width: 100%;
+}
+
+.switch-type {
+  width: 100%;
+  height: 110rpx;
+}
+
+.switch-type>text {
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+  width: 164rpx;
+  height: 40rpx;
+  line-height: 36rpx;
+  padding: 45rpx 0rpx 0rpx 25rpx;
+}
+
+.switch {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 0 20rpx 0 20rpx;
+  height: 250rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.radio-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 120rpx;
+}
+
+.checked {
+  width: 100%;
+  height: 120rpx;
+  display: block;
+}
+
+.menu {
+  border-bottom: 1rpx solid rgb(235, 235, 235);
+}
+
+.tui-menu {
+  width: 66.5%;
+  display: flex;
+}
+
+.radio {
+  width: 100%;
+  padding: 35rpx 40rpx 0 20rpx;
+  height: 94rpx;
+  display: block;
+}
+
+.process-please {
+  width: 100%;
+  height: 115rpx;
+}
+
+.process-please>text {
+  display: block;
+  padding-top: 20rpx;
+  margin: 0rpx auto;
+  width: 92%;
+  height: 62rpx;
+  line-height: 34rpx;
+  font-size: 24rpx;
+  color: rgb(101, 101, 101);
+}
+
+.content {
+  padding: 0rpx 31rpx 0rpx 31rpx;
+  display: block;
+  width: 92%;
+  height: 1440rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.caption {
+  width: 100%;
+  height: 110rpx;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.0rpx solid rgb(235, 235, 235);
+}
+
+.captions>text {
+  letter-spacing: 60rpx;
+  width: 200rpx;
+  height: 30rpx;
+  line-height: 26rpx;
+  font-size: 32rpx;
+}
+
+.caption>.contents {
+  display: block;
+  padding-top: 40rpx;
+}
+
+.caption>text {
+  color: rgb(40, 40, 40);
+  display: block;
+  padding-top: 35rpx;
+}
+
+.caption>input {
+  font-size: 32rpx;
+  display: block;
+  padding-top: 28rpx;
+  color: rgba(152, 152, 152, 0.5);
+  border: none;
+}
+
+.emotion {
+  width: 500rpx;
+}
+
+.deadline>text {
+  display: block;
+  width: 200rpx;
+  height: 30rpx;
+  line-height: 26rpx;
+  font-size: 32rpx;
+}
+
+.arrows {
+  display: block;
+  width: 35rpx;
+  height: 40rpx;
+  padding: 40rpx 20rpx 0rpx 20rpx;
+}
+
+.place {
+  width: 60rpx;
+  background-color: darkgoldenrod;
+  display: block;
+  margin-left: 120rpx;
+}
+
+.always {
+  width: 30rpx;
+  display: block;
+  background-color: salmon;
+}
+
+.invest {
+  display: block;
+  width: 80%;
+}
+
+.investment {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.investment>input {
+  padding: 30rpx 0 0 0;
+  display: block;
+  width: 70%;
+  height: 30rpx;
+}
+
+.larges {
+  width: 95%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.eventually {
+  display: block;
+  width: 30%;
+  height: 40rpx;
+  padding: 40rpx 0 0 0;
+}
+
+.general {
+  width: 190rpx;
+  height: 40rpx;
+  display: block;
+  padding-top: 33rpx;
+}
+
+.ordinary {
+  display: block;
+  padding-top: 15rpx;
+  width: 90rpx;
+  height: 20rpx;
+  margin-left: -35rpx;
+  border-bottom: 1.0rpx solid rgb(152, 152, 152);
+}
+
+.buteo {
+  width: 31rpx;
+  padding-top: 35rpx;
+  display: block;
+  margin-left: -35rpx;
+}
+
+.normal {
+  font-size: 24rpx;
+  line-height: 40rpx;
+  padding-top: 40rpx;
+  height: 40rpx;
+  display: block;
+}
+
+.indicus {
+  border-bottom: none;
+}
+
+.indicus>.deposit {
+  color: rgb(216, 26, 26);
+  font-weight: 800;
+}
+
+.required>text {
+  font-size: 24rpx;
+
+  display: block;
+  margin: 0 auto;
+  width: 94%;
+  color: rgb(101, 101, 101);
+  padding: 30rpx 22rpx 140rpx 22rpx;
+}
+
+.button {
+  font-size: 32rpx;
+  margin: 0 auto;
+  width: 90%;
+  height: 180rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button>text {
+  display: block;
+  text-align: center;
+  padding: 25rpx 90rpx 25rpx 95rpx;
+  line-height: 40rpx;
+  height: 40rpx;
+  border-radius: 50rpx;
+  letter-spacing: 15rpx;
+}
+
+.requireds {
+  border: 1rpx solid rgb(195, 195, 195);
+}
+
+.resetr {
+  background-color: rgb(38, 132, 196);
+  color: rgb(255, 255, 255);
+}

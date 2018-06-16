@@ -1,0 +1,38 @@
+ /* pages/phone-authentication/phone-authentication.wxss  */
+
+.bindKey{
+  font-size: 32rpx;
+}
+.number{
+  width: 640rpx;
+  height: 75rpx;
+  border-bottom: 2rpx solid rgb(235, 235, 235);    
+  margin-top:100rpx;
+  margin-left: 60rpx;
+}
+
+.bindKey input{
+  width: 400rpx;
+  height: 34rpx; 
+  line-height: 80rpx;
+  color: rgb(101, 101, 101);
+}
+
+.verification-code{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(101, 101, 101);
+}
+.register{
+  text-align: center;
+  display: block;
+  background-color: rgb(235, 235, 235);
+  color: rgb(255, 255, 255);
+  margin: 100rpx 0rpx 0rpx 80rpx;
+  letter-spacing: 20rpx;
+  border-radius: 20rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  width: 600rpx;
+  height: 90rpx; 
+} 

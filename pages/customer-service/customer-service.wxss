@@ -1,0 +1,51 @@
+/* pages/customer-service/customer-service*/
+
+.customer-service{
+  width: 90%;
+  height: 120rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.service{
+  padding-top: 69rpx;
+}
+.customerservice {
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.officialexchangegroup{
+  display: block;
+  width: 60rpx;
+  height: 66rpx;
+}
+.customer {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrows {
+  color: rgb(152, 152, 152);
+  background-color: white;
+  display: block;
+  width: 30rpx;
+  height: 40rpx;
+  /* font-size: 60rpx;
+  font-weight: lighter; */
+}
+
+.custome {
+  font-size: 34rpx;
+  display: block;
+  padding-top: 10rpx;
+  color: rgb(40, 40, 40);
+}
+
+.number {
+  font-size: 30rpx;
+  display: block;
+  color: rgb(101, 101, 101);
+  padding-top: 16rpx;
+}

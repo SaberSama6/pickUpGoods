@@ -1,0 +1,36 @@
+/* pages/certification/certification.wxss */
+.approve{
+  margin: 0 auto;
+  width: 90%;
+  height: 148rpx;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.phone{
+  font-size: 32rpx;
+  height: 100rpx;
+  padding-top: 48rpx;
+  display: block;
+  width: 60%;
+}
+.mobile{
+  width: 24%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.mobiles{
+  width: 100rpx;
+  height: 40rpx;
+  display: block;
+  font-size: 32rpx;
+  padding-top: 48rpx;
+  color: rgb(152, 152, 152);  
+}
+.arrows{
+  margin-top: 46rpx;
+  width: 34rpx;
+  height: 50rpx;
+  display: block;
+}

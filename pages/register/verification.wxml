@@ -1,0 +1,19 @@
+<!--pages/register/verification.wxml-->
+<view>
+  <view class="farses">
+    <view class="jcwoerd">
+      <image src="../../images/jcwoerd.jpg" />
+      <view class='search'>
+        <view class="center">
+          <image src="../../images/photoshop.png" />
+          <text class="wechat" bindtap="building">微信一建登录</text>
+        </view>
+        <view class="helix-server">
+          <text class="mobile-phone" bindtap="helix">手机密码登录</text>
+          <text class="mobile-phone" bindtap="carousel">手机验证码登录</text>
+        </view>
+        <text class="new-customer" bindtap="matriculation">新用户注册</text>
+      </view>
+    </view>
+  </view>
+</view>

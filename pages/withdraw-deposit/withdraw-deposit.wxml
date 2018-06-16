@@ -1,0 +1,40 @@
+<!--pages/withdraw-deposit/withdraw-deposit.wxml-->
+<view class='withdraw-deposi'>
+  <view class='withdraw'>
+    <view class='deposi'>
+      <view class='cash-account'>
+        <text class='account'>提现账户</text>
+        <view class='wechat'>
+          <text class='divoer'>微信</text>
+          <text class='wechat-id'>{{WechatNumber}}</text>
+        </view>
+      </view>
+      <view class='mention'>
+        <view class='freezing'>
+          <view class='amount'>
+            <image class='thebalancefigure' src="../../images/thebalancefigure.png" />
+            <text class='withdrawal-balance'>可提现余额</text>
+            <text class='balance'>{{BalanceOutstanding}}</text>
+          </view>
+          <view class='amount'>
+            <image class='thebalancefigure' src="../../images/ensurethegentoo.png" />
+            <text class='withdrawal-balance'>保证金</text>
+            <view class='outstanding'>
+              <text class='balances'>{{BalanceOutstanding}}</text>
+              <text class='freezes'>(冻结中)</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='withdrawal-amount'>
+        <text class='withdrawal'>提现金额</text>
+        <view class='withdrawales'>
+          <text class='withdwales'>￥</text>
+          <text class='withdwal'>{{Cashwithdrawal}}</text>
+        </view>
+      </view>
+      <text class='additional-deduction'>额外扣除(普通会员和黄金会员)手续费3元/笔VIP会员提现免费</text>
+      <text class='next-step'>下 一 步</text>
+    </view>
+  </view>
+</view>

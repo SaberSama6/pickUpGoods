@@ -1,0 +1,23 @@
+<!--pages/matriculation/matriculation.wxml-->
+<view class='forget-page'>
+  <view class="phone-number pageforget">
+    <input type="text" placeholder='昵称' />
+  </view>
+  <view class="phone-number">
+    <input type="text" placeholder='手机号' />
+  </view>
+  <view class="phone-number">
+    <input type="text" placeholder='验证码' bindinput="bindKeyInput" id="timer" />
+    <text bindtap="carousel">获取验证码</text>
+  </view>
+  <view class="phone-number">
+    <input type="password" placeholder='密码' />
+  </view>
+  <view class="phone-number">
+    <input type="password" placeholder='确认密码' />
+  </view>
+  <view class="phone-number">
+    <input type="text" placeholder='邀请码' />
+  </view>
+  <text class='enter register'>注册</text>
+</view>

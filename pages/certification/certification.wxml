@@ -1,0 +1,22 @@
+<!--pages/certification/certification.wxml-->
+<view class='mobile-phone approve'  bindtap="PhoneAuthentication">
+  <text class='phone'>手机认证</text>
+  <view class='mobile'>
+    <text class='mobiles' bindtap="carousel">{{UserName}}</text>
+    <image class='arrows' src="/images/arrows.png" />
+  </view>
+</view>
+<view class='province approve'  bindtap="IdentityAuthentication">
+  <text class='phone'>身份认证</text>
+  <view class='mobile'>
+    <text class='mobiles' bindtap="carousel">{{UserName}}</text>
+    <image class='arrows' src="/images/arrows.png" />
+  </view>
+</view>
+ <view class='alipay approve'  bindtap="AlipayCertification">
+  <text class='phone'>支付宝认证</text>
+  <view class='mobile'>
+    <text class='mobiles' bindtap="carousel">{{UserName}}</text>
+    <image class='arrows' src="/images/arrows.png" />
+  </view>
+</view> 

@@ -1,0 +1,22 @@
+<!--pages/new-recharge/new-recharge.wxml-->
+<view class='new-recharge'>
+  <view class='recharge'>
+    <text class='selected-area'>是否上架至精选区</text>
+    <view class='selected'>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <view class="tui-menu-list">
+            <radio color="#007aff" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}</view>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <view class='selected-change'>
+    <text>精选区收费标准为15元/小时</text>
+  </view>
+  <view class='charging-standard'></view>
+  <view class='charging'>
+    <text class='push push-button'>取 消</text>
+    <text class='button push-button'>发 布</text>
+  </view >
+</view>

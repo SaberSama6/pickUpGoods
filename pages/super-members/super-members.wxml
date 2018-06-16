@@ -1,0 +1,21 @@
+<!--pages/super-members/super-members.wxml-->
+<view class='upgrade-membership'>
+  <image src="../../images/facebookgoldaccount.png" />
+  <text>VIP会员</text>
+  <view class='immediately-renewal'>
+    <view class='remain-memberday'>
+      <text class='memberday'>剩余<text bindtap="carousel">{{MemBerday}}</text>天</text>
+      <text class='renewal'>立即续费</text>
+    </view>
+    <text></text>
+  </view>
+</view>
+<view class='membership'>
+  <view class='gold-membership'>
+    <text class='goldmembers'>温馨提示：会员到期若无续费,自动降为普通会员,不予享受会员的特权</text>
+  </view>
+
+</view>
+<view class='prompt'>
+  <text class='promptes'>会员特权</text>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/lbog/lbog.wxml-->
+<view class='bindKey'>
+  <view class="phone-number number">
+    <input type="text" placeholder='手机号码' maxlength="11" bindinput="bindKeyInput" />
+  </view>
+  <view class="verification-code number">
+    <input type="text" placeholder='验证码' maxlength="6" bindinput="bindKeyInputs" id="timer" />
+    <text bindtap="carousel" class="voteText countDownTimeText">{{countDownSecond}}</text>
+  </view>
+  <text class='enter register' bindtap="forget">登录</text>
+</view>

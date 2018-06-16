@@ -1,0 +1,108 @@
+<!--pages/new-projects/new-projects.wxml-->
+<view class='project-snew'>
+  <view class='switch-type'>
+    <text>选择类型</text>
+  </view>
+  <!-- 选择 -->
+  <!-- <view class=''> -->
+  <view class="switch">
+    <view class='checked'>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio menu" wx:for="{{item}}">
+          <view class="tui-menu-list">
+            <radio color="#007aff" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}          </view>
+        </label>
+      </radio-group>
+         <radio-group class="radio-group tui-menu" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <view class="tui-menu-list">
+            <radio color="#007aff" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}          </view>
+        </label>
+      </radio-group> 
+    </view>
+  </view>
+  <view class='process-please'>
+    <text>请在流程中详细写明操作方法及验证节点，准确上传验证图例，想给出合理价格,清充分评估后填写</text>
+  </view>
+  <view class='content'>
+    <view class='caption captions'>
+      <text class='contents'>标题</text>
+      <input type="text" placeholder='12字以内' class='emotion' />
+    </view>
+    <view class='caption deadline'>
+      <text class='contents'>开始日期</text>
+    </view>
+    <view class='caption deadline'>
+      <text class='contents'>结束日期</text>
+    </view>
+    <view class='caption captions'>
+      <text>数量</text>
+      <input type="text" class='emotion' placeholder='最少10单最多2000单' />
+    </view>
+    <view class='caption deadline'>
+      <text>任务链接</text>
+      <input type="text" class='emotion' placeholder='http://www.zcool.com.cn/' />
+    </view>
+    <view class='caption deadline deads'>
+      <text class='deadlines'>操作步骤</text>
+      <image class='arrows' src="/images/arrows.png" />
+    </view>
+    <view class='caption'>
+      <text class='invest'>投资本金</text>
+      <view class='investment'>
+        <input type="text" placeholder='' class='' />
+        <text class='eventually'>元</text>
+      </view>
+    </view>
+    <view class='caption'>
+      <text class='invest'>投资期限</text>
+      <view class='investment'>
+        <input type="text" placeholder='' class='' />
+        <text class='eventually'>天</text>
+      </view>
+    </view>
+    <view class='caption'>
+      <text class='invest'>投资收益</text>
+      <view class='investment'>
+        <input type="text" placeholder='' />
+        <text class='eventually'>元</text>
+      </view>
+    </view>
+    <view class='caption '>
+      <view class='larges'>
+        <text class='general'>普通会员收益</text>
+        <input class='ordinary' type='text' placeholder='' />
+        <text class='buteo'>元</text>
+        <text class='normal'>平台服务费收取10%~封顶3元/单</text>
+      </view>
+    </view>
+    <view class='caption '>
+      <view class='larges'>
+        <text class='general'>黄金会员收益</text>
+        <input class='ordinary' type='text' placeholder='' />
+        <text class='buteo'>元</text>
+        <text class='normal'>平台服务费收取5%~封顶2元/单</text>
+      </view>
+    </view>
+    <view class='caption '>
+      <view class='larges'>
+        <text class='general'>VIP会员收益</text>
+        <input class='ordinary' type='text' placeholder='' />
+        <text class='buteo'>元</text>
+        <text class='normal'>平台服务费收取1%~封顶1元/单</text>
+      </view>
+    </view>
+    <view class='caption indicus'>
+      <text>所需保证金</text>
+      <text class='deposit'>20元</text>
+    </view>
+  </view>
+  <view class='required'>
+    <text>所需保证金为收益平台大概计算需要的金额；保证金=任务收益+服务费，因任务等级不同，保证金为约数，任务结束时解冻保证金
+</text>
+    <view class='button'>
+      <text class='requireds'>取消</text>
+      <text class='resetr' bindtap="NextStep">下一步</text>
+    </view>
+  </view>
+</view>

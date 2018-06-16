@@ -1,0 +1,58 @@
+<!--pages/usinghelp/usinghelp.wxml-->
+<view class='usinghelp'>
+  <view class='questions'>
+    <image class='message' src="/images/questionmark.png" />
+    <text>常见问题</text>
+  </view>
+  <view class="accordion-content">
+    <view class="tui-menu-list {{isShowFrom1 ? 'tui-shangjiantou' : 'tui-xiajiantou'}}">
+      <view bindtap="showFrom" data-param="1">
+        <text>发布任务怎么收费？</text>
+      </view>
+      <!--<text></text>  -->
+
+      <view class="{{isShowFrom1 ? '' : 'tui-hide'}}">
+        <view class="charge">
+          <text> 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="accordion-content">
+    <view class="tui-menu-list {{isShowFrom2 ? 'tui-shangjiantou' : 'tui-xiajiantou'}}">
+      <view bindtap="showFrom" data-param="2">
+        <text>发布任务怎么收费？</text>
+      </view>
+      <view class="{{isShowFrom2 ? '' : 'tui-hide'}}">
+        <view class="charge">
+          <text> 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="accordion-content">
+    <view class="tui-menu-list {{isShowFrom3 ? 'tui-shangjiantou' : 'tui-xiajiantou'}}">
+      <view bindtap="showFrom" data-param="3">
+        <text>发布任务怎么收费？</text>
+      </view>
+      <view class="{{isShowFrom3 ? '' : 'tui-hide'}}">
+        <view class="charge">
+          <text> 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="accordion-content">
+    <view class="tui-menu-list {{isShowFrom4 ? 'tui-shangjiantou' : 'tui-xiajiantou'}}">
+      <view bindtap="showFrom" data-param="4">
+        <text>发布任务怎么收费？</text>
+      </view>
+      <view class="{{isShowFrom4 ? '' : 'tui-hide'}}">
+        <view class="charge">
+          <text> 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题 常见问题</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

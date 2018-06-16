@@ -1,0 +1,12 @@
+<!--pages/phone-authentication/phone-authentication.wxml-->
+
+<view class='bindKey'>
+  <view class="phone-number number">
+    <input type="text" placeholder='手机号' bindinput="bindKeyInput" />
+  </view>
+  <view class="verification-code number">
+    <input type="text" placeholder='请输入验证码' bindinput="bindKeyInputs" id="timer" />
+    <text bindtap="carousel" class="voteText countDownTimeText">{{countDownSecond}}</text>
+  </view>
+  <text class='enter register' bindtap="forget">确认提交</text>
+</view>

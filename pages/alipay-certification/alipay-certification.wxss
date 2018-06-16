@@ -1,0 +1,99 @@
+/* pages/alipay-certification/alipay-certification.wxss  */
+
+.bindinput {
+  display: flex;
+  flex-direction: column;
+  height: 910rpx;
+  font-size: 36rpx;
+
+}
+
+.real-name {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(40, 40, 40);
+  border-bottom: 1rpx solid rgb(226, 226, 226);
+}
+
+.real {
+  height: 180rpx;
+}
+
+.full-name {
+  width: 100%;
+  display: flex;
+}
+
+.guest-names {
+  padding-top: 100rpx;
+  height: 50rpx;
+}
+
+.true-name {
+  display: block;
+  width: 190rpx;
+  letter-spacing: 4rpx;
+}
+
+.alipay .true-name {
+  display: block;
+  width: 220rpx;
+}
+
+.alipay {
+  display: block;
+  padding-top: 94rpx;
+  height: 80rpx;
+}
+
+.prompt {
+  height: 90rpx;
+  width: 90%;
+  position: absolute;
+  left: 38rpx;
+  top: 920rpx;
+}
+
+.promptes {
+  color: rgb(101, 101, 101);
+  font-size: 34rpx;
+  height: 50rpx;
+  margin-bottom: 36rpx;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  line-height: 1.1;
+  position: relative;
+}
+
+view.prompt>text:before, view.prompt>text:after {
+  content: ''; /*CSS伪类用法*/
+  position: absolute; /*定位背景横线的位置*/
+  top: 20rpx;
+  background: rgb(235, 235, 235); /*宽和高做出来的背景横线*/
+  width: 250rpx;
+  height: 1rpx;
+}
+
+view.prompt>text:before {
+  left: 2rpx; /*调整背景横线的左右距离*/
+}
+
+view.prompt>text:after {
+  right: 2rpx;
+}
+
+.question {
+  display: block;
+  position: relative;
+  top: 86rpx;
+  font-size: 36rpx;
+  width: 90%;
+  left: 40rpx;
+  color: rgb(101, 101, 101);
+}
+.notescontact{
+ color: rgb(59, 144, 202);
+}
